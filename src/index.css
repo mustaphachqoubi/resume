@@ -1,0 +1,20 @@
+*, html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2px
+}
+
+.section{
+  background: red
+}
+
+.span3{
+  grid-column: span 3
+}
